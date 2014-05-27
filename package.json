@@ -21,8 +21,8 @@
     "bin": "bin"
   },
   "dependencies": {
-    "css-parse": "~1.6.0",
-    "css-stringify": "~1.4.0"
+    "css-parse": "https://github.com/reworkcss/css-parse/tarball/master",
+    "css-stringify": "https://github.com/reworkcss/css-stringify/tarball/master"
   },
   "devDependencies": {
     "sink-test": ">= 1.0.1"

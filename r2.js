@@ -163,7 +163,7 @@ function r2(css, options) {
   if (!options)
     options = { compress: true }
 
-  ast = parser(css)
+  ast = parser(css, {silent: true})
   ast.stylesheet.rules.forEach(processRule)
 
   return builder(ast, options)
